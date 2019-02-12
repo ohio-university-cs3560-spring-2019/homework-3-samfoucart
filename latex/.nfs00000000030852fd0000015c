@@ -1,0 +1,21 @@
+\documentclass[12 pt] {article} 
+\usepackage[latin1]{inputenc}  
+\usepackage{amsmath}  
+\usepackage{amsfonts}  
+\usepackage{amssymb}  
+\usepackage{makeidx}  
+\usepackage{graphicx}  
+
+\title{CS 3560 Homework 3}
+\date{2/11/19}
+\author{Sam Foucart}
+
+\begin{document}
+
+\begin{flushleft}
+\setlength{\parindent}{10ex|
+Standard deviation is the square root of the variance of a set of numbers. It is very important while calculating the statistics of sets of numbers. It is very helpful with describing regression to the mean and other sorts of information. It tells how far the average number is away from the mean.
+\par
+\noindent
+\end{flushleft}
+\end{document}
