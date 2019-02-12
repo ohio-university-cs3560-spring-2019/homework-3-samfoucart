@@ -1,3 +1,4 @@
+/** \file */
 #include <iostream>
 #include <cmath>
 #include "deviation.h"
