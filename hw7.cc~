@@ -1,0 +1,30 @@
+#include "hw7.h"
+#include <cmath>
+
+double stddev(int n, ...)
+{
+  double total = 0;
+  double average = 0;
+  double variance = 0;
+  int value;
+
+  va_list args;
+  va_start(args, n);
+  for (size_t i = 0; i < n; ++i)
+    {
+      sum += va_arg(args, int);
+    }
+  va_end(args);
+
+  average = sum / n;
+
+  va_start(args, n);
+  for (size_t i = 0; i < n; ++i)
+    {
+      value = va_arg(args, int);
+      variance += ((value - mean) * (value - mean));
+    }
+  va_end(args);
+
+  return sqrt(variance) / (n + 1);
+}
